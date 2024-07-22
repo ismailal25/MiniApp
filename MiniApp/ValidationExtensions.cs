@@ -17,7 +17,7 @@
 
         public static bool IsValidClassName(this string className)
         {
-            return className.Length == 3 &&
+            return className.Length == 5 &&
                    char.IsUpper(className[0]) &&
                    char.IsUpper(className[1]) &&
                    char.IsDigit(className[2]);

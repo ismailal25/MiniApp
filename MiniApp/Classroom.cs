@@ -8,7 +8,7 @@ namespace MiniApp
         public int Id { get; }
         public string Name { get; }
         public ClassType Type { get; }
-        public IEnumerable<object> Students { get; internal set; }
+        public List<Student> Students { get; internal set; }
 
         private List<Student> students = new List<Student>();
 

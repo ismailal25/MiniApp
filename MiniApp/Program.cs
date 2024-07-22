@@ -138,7 +138,15 @@
                 foreach (var student in classroom.Students)
 
                 {
+                    if (student != null)
+                    {
+                        throw new Exception("student yoxdur");
+                    }
+                    else
+                    {
                     Console.WriteLine($"Classroom: {classroom.Name}, Student: {student.Name} {student.Surname}");
+
+                    }
                 }
             }
         }
